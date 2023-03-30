@@ -121,7 +121,7 @@ export async function build (opts: BuildOptions & { config: NuxtBuilderConfig })
     '--prefer-offline',
     '--frozen-lockfile',
     '--non-interactive',
-    '--production=false',
+    '--production',
     `--modules-folder=${modulesPath}`,
     `--cache-folder=${yarnCachePath}`
   ], { ...spawnOpts, env: { ...spawnOpts.env, NODE_ENV: 'development' } }, meta)
