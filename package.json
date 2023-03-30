@@ -1,6 +1,6 @@
 {
   "name": "@1of1studio/vercel-builder",
-  "version": "0.24.0",
+  "version": "0.24.11",
   "repository": "1of1studio/vercel-builder",
   "license": "MIT",
   "exports": {
